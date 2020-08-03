@@ -1,0 +1,321 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: relative;
+  height: 50px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu .menu_link {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  height: 13px;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: 100;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader .subheader_call {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+  color: #ffffff;
+  margin-top: 19px;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  line-height: 12px;
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  -webkit-box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  border-radius: 4px;
+  margin-top: 19px;
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.promo {
+  min-height: 800px;
+  background: url("../img/main.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 60px;
+}
+
+.promo .promo_subheader {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 22px;
+}
+
+.promo .promo_descr {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 23px;
+  width: 955px;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  border: none;
+  border-radius: 4px;
+  width: 259px;
+  height: 63px;
+  -webkit-box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+          box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  line-height: 3.78;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantages {
+  padding: 71px 0 65px 0;
+}
+
+.advantages .rectangle, .mobile .rectangle {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 4px 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages .header {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.mobile .header {
+  margin-top: 38px;
+  margin-bottom: 0;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.advantages .row_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  min-height: 143px;
+}
+
+.advantages .blue_round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.advantages .advantages_card {
+  width: 341px;
+}
+
+.advantages .advantages_card .blue_text {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.advantages .advantages_card .plain_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 80px 0;
+  background: url("../img/mobile_background.png") center center/cover no-repeat;
+}
+
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  padding-top: 92px;
+  margin-bottom: 19px;
+}
+
+.mobile_item_1 {
+  background: url(../img/mobile_app_1.jpg) center center/cover no-repeat;
+  border: 3px solid;
+}
+
+.mobile_item_2 {
+  background: url(../img/mobile_app_2.jpg) center center/cover no-repeat;
+}
+
+.mobile_item_3 {
+  background: url(../img/mobile_app_3.jpg) center center/cover no-repeat;
+}
+
+.mobile_item_4 {
+  background: url(../img/mobile_app_4.jpg) center center/cover no-repeat;
+}
+
+.mobile_item_5 {
+  background: url(../img/mobile_app_5.jpg) center center/cover no-repeat;
+}
+
+.mobile_item_6 {
+  background: url(../img/mobile_app_6.jpg) center center/cover no-repeat;
+}
+
+.mobile_item .subtitle {
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #300f0f;
+  text-transform: uppercase;
+}
+
+.mobile_item_plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.mobile .row {
+  margin-top: 32px;
+}
+
+.mobile .subtitle {
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+}
+/*# sourceMappingURL=style.css.map */
